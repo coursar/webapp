@@ -12,7 +12,7 @@ jobs:
       packages: write
     env:
       GHCR_REGISTRY: ghcr.io
-      IMAGE: coursar/webapp
+      IMAGE: coursar/web-app
 
     steps:
       - uses: actions/checkout@v2
